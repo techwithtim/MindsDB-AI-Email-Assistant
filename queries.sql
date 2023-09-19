@@ -3,8 +3,8 @@
 CREATE DATABASE email_datasource
 WITH ENGINE = 'email',
 PARAMETERS = {
-  "email": "techwithtim@viralnationtalent.com",
-  "password": "fjuuxevtsgklqjvw"
+  "email": "",
+  "password": ""
 };
 
 -- Querying Our Emails
