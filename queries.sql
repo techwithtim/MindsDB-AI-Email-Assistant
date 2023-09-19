@@ -32,7 +32,7 @@ PREDICT response
 USING
 engine = 'openai',
 max_tokens = 300,
-api_key = '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',
+api_key = '',
 model_name = 'gpt-3.5-turbo',
 prompt_template = 'First determine if the following email is related to sponsorships. If it is reply the following email in a personalized, polite and professional manner, make sure to include my sponsorship rates and explain what each one is. An insert (maximum 60 second integration into a video) costs $10 and dedicated youtube video costs $50. If it not related to sponsorships return the exact string of “no reply”. Here is the email: {{body}}'
 
